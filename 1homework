@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+
+      .nav-link {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .active {
+        background-color: rgb(2, 162, 77);
+      }
+
+      .about-link {
+        padding: 10px;
+      }
+      .nav-group {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-group">
+        <div class="active">
+          <p class="nav-link">Home</p>
+        </div>
+
+        <div>
+          <p class="nav-link">News</p>
+        </div>
+
+        <div>
+          <p class="nav-link">Contact</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="nav-link about-link">About</p>
+      </div>
+    </nav>
+  </body>
+</html>
